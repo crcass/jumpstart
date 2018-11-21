@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./resources/css/style.css">
   </head>
@@ -16,39 +16,143 @@
 
 <!-- Nav -->
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Explore</a></li>
-          <li><a href="#">Start a project</a></li>
-          <li><a href="#">About us</a></li>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top justify-content-between">
+      <a href="#"><img class="navbar-brand" src="./resources/images/logo.png" alt="jumpstart logo" width="178" height="20"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jumpstartnav" aria-controls="jumpstartnav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="jumpstartnav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Start a project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
         </ul>
-        <a class="navbar-brand navbar-right collapse navbar-collapse" href="#"><img src="./resources/images/logo.png"></a>
       </div>
     </nav>
 
     
 <!--Jumbotron-->
 
-    <div class="jumbotron jumbotron-bike">
-      <div class="container-fluid">
-        <h1>GET GOING</h1>
+    <div class="carousel">
+      <div class="jumbotron jumbotron-bike">
+        <h1>Get Going</h1>
         <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards</p>
-        <a href="#" class="btn btn-primary btn-lg">Jump in</a>
       </div>
+      <div class="jumbotron jumbotron-beer">
+        <h1>GET THINKING</h1>
+        <p>Meet like-minded individuals who will help fuel your creative juices</p>
+      </div>
+      <div class="jumbotron jumbotron-flowers">
+        <h1>GET CREATING</h1>
+        <p>Stop overthinking projects and begin putting them out into the world</p>
+      </div>
+      <div class="jumbotron jumbotron-duffel">
+        <h1>GET STARTED</h1>
+        <p>What are you waiting for? Today's the day for your next big idea</p>
+      </div>
+    </div>
+    <div class="text-center button-wrapper">
+      <a class="btn btn-primary btn-large" href="#">Jump in</a>
     </div>
 
 <!--Featured Project-->
 
-    <div class="container">
-      
+    <div class="container featured-project">
+      <div class="row">
+        <h2>Featured project</h2>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="image-container">
+            <img src="./resources/images/featured-project.png" alt="featured project">
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <h3>Project Title</h3>
+          <p>by Person Person</p>
+          <p>I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of. I am not too immediate to reveal them because I know the majority doesn't eveb take battle on them. All I know is that they work and you should be familiar with this too.</p> 
+        </div>
+        <div class="col-6 col-md-3 product">
+          <h3>Product Categories</h3>
+          <ul>
+            <li>Art</li>
+            <li>Books</li>
+            <li>Crystals</li>
+            <li>Design</li>
+            <li>Doodles</li>
+            <li>Deedlybobs</li>
+            <li>Farming</li>
+            <li>Gadgets</li>
+            <li>Hoverboards</li>
+            <li>Jams, Jellies, etc.</li>
+            <li>Magazines</li>
+            <li>Plants</li>
+            <li>Snakes & Snake Equipment</li>
+            <li>Tables</li>
+            <li>Ventriliquist Figures</li>
+            <li>Yoys</li>
+          </ul>
+        </div>
+      </div>
     </div>
     
+<!-- Projects -->
+
+    <div class="container projects">
+      <div class="row">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="image-container">
+            <img src="./resources/images/project1.png" alt="project 1">
+          </div>
+          <h3>Project Title</h3>
+          <p>by Person Person</p>
+          <p>I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of. I am not too immediate to reveal them because I know the majority doesn't eveb take battle on them. All I know is that they work and you should be familiar with this too.</p> 
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="image-container">
+            <img src="./resources/images/project2.png" alt="project 2">
+          </div>
+          <h3>Project Title</h3>
+          <p>by Person Person</p>
+          <p>I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of. I am not too immediate to reveal them because I know the majority doesn't eveb take battle on them. All I know is that they work and you should be familiar with this too.</p> 
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="image-container">
+            <img src="./resources/images/project3.png" alt="project 3">
+          </div>
+          <h3>Project Title</h3>
+          <p>by Person Person</p>
+          <p>I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of. I am not too immediate to reveal them because I know the majority doesn't eveb take battle on them. All I know is that they work and you should be familiar with this too.</p> 
+        </div>
+      </div>
+    </div>
+
+<!-- Help -->
+
+    <div class="container-fluid text-center help">
+      <strong>Having trouble thinking of an idea?</strong>
+      <p>Inventor's block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).</p>
+      <a class="btn btn-primary btn-large" href="#">Learn more</a>
+    </div>
+
 <!--JavasScript-->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript"src="./resources/js/main.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./resources/js/main.js"></script>
   </body>
 </html>
